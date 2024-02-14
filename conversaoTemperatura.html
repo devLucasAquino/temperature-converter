@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>conversorTemperatura</title>
+    <link rel="stylesheet" href="./estiloConversaoTemp.css">
+</head>
+<body>
+
+    <div class="allDiv">
+        <h1 id="title-html">Conversor de temperatura</h1><br>
+        <label class="allLabel" id="labelCelsius">Insira sua temperatura em Celsius: </label>
+        <br><input class="allInput" id="inputCelsius" type="number"><br>
+
+        <button id="button-primary" type="button" onclick="converter()">Converta</button>
+
+        <label class="allLabel" id="outputLabel"></label>
+    </div>
+    
+    <script src="./logicaConversaoTemp.js"></script>
+
+</body>
+</html>
